@@ -16,7 +16,6 @@
   - [Error Codes](#error-codes)
   - [Contributing](#contributing)
   - [License](#license)
-  - [Author](#author)
   - [Acknowledgments](#acknowledgments)
   <!--toc:end-->
 
@@ -123,7 +122,7 @@ The daemon logs its activity to syslog with the following format:
 Monitor the logs in real-time:
 
 ```bash
-tail -f /var/log/syslog | grep mydaemon
+tail -f /var/log/syslog | grep --line-buffered mydaemon
 ```
 
 ## Error Codes
@@ -145,10 +144,6 @@ The daemon may exit with the following status codes:
 ## License
 
 [MIT License]
-
-## Author
-
-[Anthony Benjamin]
 
 ## Acknowledgments
 
