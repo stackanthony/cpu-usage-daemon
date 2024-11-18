@@ -1,4 +1,4 @@
-# CPU Monitoring Daemon
+# CPU Usage Daemon
 ![](https://i.imgur.com/oDb0t4H.gif)
 <!--toc:start-->
 
