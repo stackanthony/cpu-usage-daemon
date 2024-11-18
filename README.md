@@ -1,5 +1,5 @@
 # CPU Monitoring Daemon
-
+![](https://imgur.com/a/IrAAN67)
 <!--toc:start-->
 
 - [CPU Monitoring Daemon](#cpu-monitoring-daemon)
